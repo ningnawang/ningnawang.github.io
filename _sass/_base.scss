@@ -695,7 +695,7 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 1rem;
 
   h1 {
     color: var(--global-theme-color);
@@ -1416,4 +1416,91 @@ figure.cover {
   a.cover-link:hover {
     color: #23212d !important;
   }
+}
+
+// ninwang
+.research {
+  margin-top: 1rem;
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 1em;
+    // margin-bottom: 1em;
+  }
+
+  h2 {
+    color: var(--global-theme-color);
+    margin-bottom: 1rem;
+
+    span {
+      font-size: 1.5rem;
+    }
+  }
+
+  h3 {
+    color: var(--global-theme-color);
+  }
+
+  h5 {
+    color: var(--global-theme-color);
+  }
+
+  h6 {
+    // text-align: center;
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+
+  .btn {
+    color: var(--global-text-color);
+    border: 1px solid var(--global-text-color);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+
+    &:hover {
+      color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+    }
+  }
+
+  .project__bibtex {
+    font-size: 1rem;
+    color: var(--global-text-color);
+    font-family: inherit;
+  }
+}
+
+// ninwang
+.service {
+  margin-top: 1rem;
+
+  h1 {
+    color: var(--global-theme-color);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+
+    span {
+      font-size: 1.5rem;
+    }
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+  }
+}
+
+// ninwang
+.table-border {
+  border-right-style: dotted;
+  border-left-style: dotted;
 }
