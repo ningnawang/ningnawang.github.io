@@ -34,13 +34,8 @@ category: work
 
 <div class="research">
 <h2>Abstract</h2>
-<p>
 We propose a novel framework for computing the medial axis transform of 3D shapes while preserving their medial features via restricted power diagram (RPD). Medial features, including external features such as the sharp edges and corners of the input mesh surface and internal features such as the seams and junctions of medial axis, are important shape descriptors both topologically and geometrically. However, existing medial axis approximation methods fail to capture and preserve them due to the fundamentally under-sampling in the vicinity of medial features, and the difficulty to build their correct connections. In this paper we use the RPD of medial spheres and its affiliated structures to help solve these challenges. The dual structure of RPD provides the connectivity of medial spheres. The surface restricted power cell (RPC) of each medial sphere provides the tangential surface regions that these spheres have contact with. The connected components (CC) of surface RPC give us the classification of each sphere, to be on a medial sheet, a seam, or a junction. They allow us to detect insufficient sphere sampling around medial features and develop necessary conditions to preserve them. Using this RPD-based framework, we are able to construct high quality medial meshes with features preserved. Compared with existing sampling-based or voxel-based methods, our method is the first one that can preserve not only external features but also internal features of medial axes. 
-</p>
 </div>
 
-<!-- <iframe align="center" width="750" height="600" src="https://youtu.be/embed/O1GLUCxSmac"> </iframe> -->
+<br>
 <iframe align="center" width="750" height="600" src="https://www.youtube.com/embed/O1GLUCxSmac"> </iframe>
-
-
-<!-- <iframe width="562" height="382" src="https://www.youtube.com/embed/O1GLUCxSmac" title="Computing Medial Axis Transform with Feature Preservation viaRestricted Power Diagram" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
