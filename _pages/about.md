@@ -23,9 +23,16 @@ teaching: true
 
 <a href='#'>Hello, 你好, Bonjour, こんにちは, 안녕하세요!</a>
  
-My name is Ningna Wang (王宁娜 in Chinese). I am a Ph.D. candidate in Computer Graphics Lab at the University of Texas at Dallas. Under the supervision of Prof. [Xiaohu Guo](https://personal.utdallas.edu/~xguo/), my research focuses on geometric modeling, especially medial axis transforms.
+My name is Ningna Wang (/niŋ-na/ /wɔŋ/, 王宁娜 in Chinese). I am a Ph.D. candidate in Computer Graphics Lab at the University of Texas at Dallas. Under the supervision of Prof. [Xiaohu Guo](https://personal.utdallas.edu/~xguo/), my research focuses on geometric modeling. My current research direction is [medial axis](https://en.wikipedia.org/wiki/Medial_axis) computation and its application. I would love to explore new representations and new algorithms to make processing geometric data more easily and efficiently. 
 
-Prior to UTD, I worked as a Senior Software Developer at Booking.com, Amsterdam, Netherlands. 
+<!-- My work seeks new algorithms and new representations to make computing with geometric data easy, efficient, and reliable. -->
+
+<!-- I would love to explore more applications of triangle meshes and tetrahedral meshes. -->
+
+Prior to UTD, I worked as a Senior Software Developer at Booking.com, Amsterdam, Netherlands, where I was responsible for the development of hotel availability distributed search system that handles thousands of requests per second. 
+
+<!-- My Chinese name is 王宁娜. The closest pronunciation of my name in English is /niŋ-na/ /wɔŋ/.) -->
+
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
