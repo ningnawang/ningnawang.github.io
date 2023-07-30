@@ -104,14 +104,7 @@
 
     </div>
 
-    <div>
-      {%- if entry.highlight %}
-      <span style="color:red;">{{entry.highlight}}</span>
-      {%- endif %}
-      {%- if entry.highlight_link %}
-      <a href="{{ entry.highlight_link }}" style="color:blue;">(See More Here)</a>
-      {%- endif %}
-    </div>
+
 
     <!-- Journal/Book title and date -->
     {% assign proceedings = "inproceedings, incollection" | split: ','%}
@@ -131,6 +124,15 @@
     {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
     <div class="periodical">
       {{ periodical | strip }}
+    </div>
+
+    <div>
+      {%- if entry.highlight %}
+      <span style="color:red;">{{entry.highlight}}</span>
+      {%- endif %}
+      {%- if entry.highlight_link %}
+      <a href="{{ entry.highlight_link }}" style="color:var(--global-theme-color);">(See More Here)</a>
+      {%- endif %}
     </div>
     {%- endif %}
 
