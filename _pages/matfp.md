@@ -23,11 +23,12 @@ category: work
     </div>
     <p><img src="/assets/img/matfp/teaser.png" width=800></p>
     <div class="col-sm-12">
-        <a href="https://personal.utdallas.edu/~xguo/SA2022.pdf" class="btn btn-sm z-depth-0" role="button">pdf (39MB)</a>
-        <a href="https://ningnawang.github.io/projects/matfp/" class="btn btn-sm z-depth-0" role="button">website</a>
+        <!-- <a href="https://personal.utdallas.edu/~xguo/SA2022.pdf" class="btn btn-sm z-depth-0" role="button">pdf (39MB)</a> -->
+        <!-- <a href="https://ningnawang.github.io/projects/matfp/" class="btn btn-sm z-depth-0" role="button">website</a> -->
         <a href="https://arxiv.org/abs/2210.13676" class="btn btn-sm z-depth-0" role="button">arXiv</a>
-        <a href="https://personal.utdallas.edu/~xguo/SA2022_Supplement.pdf" class="btn btn-sm z-depth-0" role="button"> supplement</a>
-        <a href="https://www.youtube.com/watch?v=O1GLUCxSmac&feature=youtu.be&ab_channel=XiaohuGuo" class="btn btn-sm z-depth-0" role="button"> video (12min)</a>
+        <a href="https://personal.utdallas.edu/~xguo/SA2022_Supplement.pdf" class="btn btn-sm z-depth-0" role="button"> supplement (pdf)</a>
+        <a href="https://youtu.be/0kP_EMtER-w" class="btn btn-sm z-depth-0" role="button"> presentation (9min)</a>
+        <a href="https://youtu.be/O1GLUCxSmac" class="btn btn-sm z-depth-0" role="button"> results (12min)</a>
         <a href="https://github.com/ningnawang/matfp" class="btn btn-sm z-depth-0" role="button">Code</a>
     </div>
 </div>
@@ -38,4 +39,4 @@ We propose a novel framework for computing the medial axis transform of 3D shape
 </div>
 
 <br>
-<iframe align="center" width="750" height="600" src="https://www.youtube.com/embed/O1GLUCxSmac"> </iframe>
+<iframe align="center" width="750" height="600" src="https://youtu.be/0kP_EMtER-w"> </iframe>
