@@ -32,10 +32,8 @@ My name is Ningna Wang (/niŋ-na/ /wɔŋ/, 王宁娜 in Chinese). I am a Ph.D. c
 Prior to UTD, I worked as a Senior Software Developer at Booking.com, Amsterdam, Netherlands, where I was responsible for the development of hotel availability distributed search system that handles thousands of requests per second. 
 
 
-**I am seeking for an internship opportunity in 2023/2024 ([CV](https://ningnawang.github.io/assets/pdf/cv_ningnawang.pdf), <a href="mailto:{{ site.email | encode_email }}" title="email">Email</a>)**
-
-
-
+<!-- **I am seeking for an internship opportunity in 2023/2024 ([CV](https://ningnawang.github.io/assets/pdf/cv_ningnawang.pdf), <a href="mailto:{{ site.email | encode_email }}" title="email">Email</a>)**
+ -->
 
 
 
