@@ -866,7 +866,7 @@ progress::-moz-progress-bar {
 
 
 .teaching {
-  margin-top: 5rem;
+  margin-top: 3rem;
 
   h1 {
     color: var(--global-theme-color);
@@ -888,4 +888,35 @@ progress::-moz-progress-bar {
     display: flex;
     align-items: center;
   }
+}
+
+
+.services {
+  margin-top: 2rem;
+
+  h1 {
+    color: var(--global-theme-color);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+
+    span {
+      font-size: 1.5rem;
+    }
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.table-border {
+  border-right-style: dotted;
+  border-left-style: dotted;
 }

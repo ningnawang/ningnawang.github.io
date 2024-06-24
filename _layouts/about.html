@@ -50,20 +50,24 @@ layout: default
       {{ content }}
     </div>
 
-    {% if page.news -%}
     <!-- News -->
+    {% if page.news -%}
     {%- include news.html %}
     {%- endif %}
-    {% if page.selected_papers -%}
     <!-- Selected papers -->
+    {% if page.selected_papers -%}
     {%- include selected_papers.html %}
     {%- endif %}
-    {% if page.teaching -%}
     <!-- Teaching -->
+    {% if page.teaching -%}
     {%- include teaching.html %}
     {%- endif %}
-    {%- if page.social %}
+    <!-- Services -->
+    {% if page.services -%}
+    {%- include services.html %}
+    {%- endif %}
     <!-- Social -->
+    {%- if page.social %}
     <div class="social">
       <div class="contact-icons">
         {% include social.html %}

@@ -5,7 +5,7 @@ permalink: assets/pdf/cv_ningnawang.pdf
 title: CV
 description:
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 <!-- ---
