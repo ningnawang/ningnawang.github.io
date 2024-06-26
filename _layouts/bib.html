@@ -128,10 +128,10 @@
 
     <div>
       {%- if entry.highlight %}
-      <span style="color:red;">{{entry.highlight}}</span>
+        <span style="color:red;">{{entry.highlight}}</span>
       {%- endif %}
       {%- if entry.highlight_link %}
-      <a href="{{ entry.highlight_link }}" style="color:var(--global-theme-color);">(See More Here)</a>
+      <a href="{{ entry.highlight_link }}" style="color:var(--global-theme-color);">{{entry.highlight2}}</a>
       {%- endif %}
     </div>
     {%- endif %}
@@ -198,6 +198,9 @@
       {%- endif %}
       {%- if entry.video %}
       <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
+      {%- endif %}
+      {%- if entry.news %}
+      <a href="{{ entry.news }}" class="btn btn-sm z-depth-0" role="button">News</a>
       {%- endif %}
     </div>
 
