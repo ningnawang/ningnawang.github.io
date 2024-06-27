@@ -202,6 +202,9 @@
       {%- if entry.news %}
       <a href="{{ entry.news }}" class="btn btn-sm z-depth-0" role="button">News</a>
       {%- endif %}
+      {%- if entry.blender %}
+      <a href="{{ entry.blender }}" class="btn btn-sm z-depth-0" role="button">Blender Addon</a>
+      {%- endif %}
     </div>
 
     {% if entry.abstract -%}
