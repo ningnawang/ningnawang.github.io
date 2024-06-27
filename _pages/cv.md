@@ -1,6 +1,6 @@
 ---
 # layout: page
-permalink: assets/pdf/cv_ningnawang_v1.pdf
+permalink: assets/pdf/cv_ningnawang_v2.pdf
 # permalink: /cv/
 title: CV
 description:
