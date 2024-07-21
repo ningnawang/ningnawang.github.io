@@ -4,7 +4,7 @@ permalink: assets/pdf/cv_ningnawang_v2.pdf
 # permalink: /cv/
 title: CV
 description:
-nav: false
+nav: true
 nav_order: 7
 ---
 
