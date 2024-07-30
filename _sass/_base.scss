@@ -861,6 +861,12 @@ progress::-moz-progress-bar {
       border-color: var(--global-theme-color);
     }
   }
+
+  .project__bibtex {
+    font-size: 1rem;
+    color: var(--global-text-color);
+    font-family: inherit;
+  }
 }
 
 
