@@ -24,7 +24,7 @@ category: work
     <p><img src="/assets/img/2022_matfp/teaser.png" width=800></p>
     <div class="col-sm-12">
         <a href="https://arxiv.org/abs/2210.13676" class="btn btn-sm z-depth-0" role="button">ArXiv</a>
-        <a href="assets/pdf/2022_matfp/2022_siga_matfp_sup.pdf" class="btn btn-sm z-depth-0" role="button"> Supplement (pdf)</a>
+        <a href="/assets/pdf/2022_matfp/2022_siga_matfp_sup.pdf" class="btn btn-sm z-depth-0" role="button"> Supplement (pdf)</a>
         <a href="https://youtu.be/0kP_EMtER-w" class="btn btn-sm z-depth-0" role="button"> Presentation (9min)</a>
         <a href="https://youtu.be/O1GLUCxSmac" class="btn btn-sm z-depth-0" role="button"> Results (12min)</a>
         <a href="https://github.com/ningnawang/matfp" class="btn btn-sm z-depth-0" role="button">Code</a>
