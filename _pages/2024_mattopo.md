@@ -24,7 +24,7 @@ category: work
         </div>
     </div>
      <div class="col-sm-12">
-        <a href="https://arxiv.org/abs/2403.18761" class="btn btn-sm z-depth-0" role="button">ArXiv (OUTDATED)</a>
+        <a href="https://arxiv.org/abs/2403.18761" class="btn btn-sm z-depth-0" role="button">ArXiv (low res) [OUTDATED]</a>
         <a href="/assets/pdf/2024_mattopo/2024_siga_MatTopo_final_sup.pdf" class="btn btn-sm z-depth-0" role="button"> Supplement (pdf)</a>
         <!-- <a href="#" class="btn btn-sm z-depth-0" role="button"> Presentation (9min)</a> -->
         <!-- <a href="#" class="btn btn-sm z-depth-0" role="button"> Results (12min)</a> -->
