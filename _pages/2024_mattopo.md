@@ -24,12 +24,12 @@ category: work
         </div>
     </div>
      <div class="col-sm-12">
-        <a href="https://arxiv.org/abs/2403.18761" class="btn btn-sm z-depth-0" role="button">ArXiv</a>
-        <a href="/assets/pdf/2024_mattopo/2024_siga_mattopo_sup.pdf" class="btn btn-sm z-depth-0" role="button"> Supplement (pdf)</a>
+        <a href="https://arxiv.org/abs/2403.18761" class="btn btn-sm z-depth-0" role="button">ArXiv (OUTDATED)</a>
+        <a href="/assets/pdf/2024_mattopo/2024_siga_MatTopo_final_sup.pdf" class="btn btn-sm z-depth-0" role="button"> Supplement (pdf)</a>
         <!-- <a href="#" class="btn btn-sm z-depth-0" role="button"> Presentation (9min)</a> -->
         <!-- <a href="#" class="btn btn-sm z-depth-0" role="button"> Results (12min)</a> -->
-        <a href="#" class="btn btn-sm z-depth-0" role="button">Code (coming soon)</a>
-        <a href="#" class="btn btn-sm z-depth-0" role="button">Video (coming soon)</a>
+        <a href="https://github.com/ningnawang/MATTopo" class="btn btn-sm z-depth-0" role="button">Code</a>
+        <a href="https://www.youtube.com/watch?v=8AxJYVtU0SA" class="btn btn-sm z-depth-0" role="button">Video (8min) </a>
     </div>
     <p><img src="/assets/img/2024_mattopo/teaser_vcc5.png" width=770></p>
     <div class="caption">
@@ -86,23 +86,29 @@ We present a novel topology-preserving 3D medial axis computation framework base
 </div>
 
 
+<br>
+<iframe align="center" width="750" height="600" src="https://youtu.be/8AxJYVtU0SA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
 <div class="research" >
 <h2>Citation</h2>
 <pre class="project__bibtex">
 @article{wang2024mattopo,
-    title = {MATTopo: Topology-preserving Medial Axis Transform with Restricted Power Diagram},
-    author={Wang, Ningna and Huang, Hui and Song, Shibo and Wang, Bin and Wang, Wenping and Guo, Xiaohu},
-    year = {2024},
-    journal = {to appear in ACM Transactions on Graphics (Proc. SIGGRAPH Asia)}
+    title       = {MATTopo: Topology-preserving Medial Axis Transform with Restricted Power Diagram},
+    author      = {Wang, Ningna and Huang, Hui and Song, Shibo and Wang, Bin and Wang, Wenping and Guo, Xiaohu},
+    journal     = {ACM Transactions on Graphics (TOG)},
+    year        = {2024},
+    publisher   = {ACM},
+    booktitle   = {ACM SIGGRAPH Asia 2024 Papers},
+    series      = {SIGGRAPH Asia '24}
 }
 </pre>
 </div>
 
 
 
-<!-- 
-<br>
-<iframe align="center" width="750" height="600" src="#" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
 
 
