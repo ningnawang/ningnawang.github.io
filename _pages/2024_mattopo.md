@@ -94,13 +94,18 @@ We present a novel topology-preserving 3D medial axis computation framework base
 <h2>Citation</h2>
 <pre class="project__bibtex">
 @article{wang2024mattopo,
-    title       = {MATTopo: Topology-preserving Medial Axis Transform with Restricted Power Diagram},
-    author      = {Wang, Ningna and Huang, Hui and Song, Shibo and Wang, Bin and Wang, Wenping and Guo, Xiaohu},
-    journal     = {ACM Transactions on Graphics (TOG)},
-    year        = {2024},
-    publisher   = {ACM},
-    booktitle   = {ACM SIGGRAPH Asia 2024 Papers},
-    series      = {SIGGRAPH Asia '24}
+  title     = {MATTopo: Topology-preserving Medial Axis Transform with Restricted Power Diagram},
+  author    = {Wang, Ningna and Huang, Hui and Song, Shibo and Wang, Bin and Wang, Wenping and Guo, Xiaohu},
+  journal   = {ACM Transactions on Graphics (TOG)},
+  year      = {2024},
+  address   = {New York, NY, USA},
+  publisher = {ACM},
+  volume    = {43},
+  number    = {4},
+  url       = {https://doi.org/10.1145/3687763},
+  doi       = {10.1145/3687763},
+  booktitle = {ACM SIGGRAPH Asia 2024 Papers},
+  series    = {SIGGRAPH Asia '24}
 }
 </pre>
 </div>
