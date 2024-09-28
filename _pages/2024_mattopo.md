@@ -87,8 +87,7 @@ We present a novel topology-preserving 3D medial axis computation framework base
 
 
 <br>
-
-<iframe width="750" height="600" src="https://www.youtube.com/embed/8AxJYVtU0SA?si=1eXG6JHLKz9NdShV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe align="center" width="100%" height="600" src="https://www.youtube.com/embed/8AxJYVtU0SA?si=1eXG6JHLKz9NdShV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <div class="research" >
 <h2>Citation</h2>

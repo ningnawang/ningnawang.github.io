@@ -45,7 +45,7 @@ Given a closed manifold 3D mesh surface (a) with sharp edges and corners pre-det
 
 <br>
 <!-- <iframe align="center" width="750" height="600" src="https://youtu.be/0kP_EMtER-w"> </iframe> -->
-<iframe align="center" width="750" height="600" src="https://www.youtube.com/embed/0kP_EMtER-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe align="center" width="100%" height="600" src="https://www.youtube.com/embed/0kP_EMtER-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <div class="research" >
 <h2>Citation</h2>
