@@ -1,10 +1,10 @@
 ---
 # layout: page
-permalink: assets/pdf/cv/cv_ningnawang_20241021.pdf
+permalink: assets/pdf/cv/CV_NingnaWang.pdf
 # permalink: /cv/
 title: CV
 description:
-nav: false
+nav: true
 nav_order: 7
 # cv_pdf: cv_ningnawang_v2.pdf
 ---
