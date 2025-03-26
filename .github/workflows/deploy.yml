@@ -89,10 +89,7 @@ jobs:
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
-<<<<<<< HEAD
-=======
           npm install -g mermaid.cli
->>>>>>> d7a5d250 (Initial commit)
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
@@ -104,8 +101,4 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-<<<<<<< HEAD
           folder: _site
-=======
-          folder: _site
->>>>>>> d7a5d250 (Initial commit)
