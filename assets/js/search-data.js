@@ -340,7 +340,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-have-successfully-defended-my-ph-d-dissertation-sparkles-smile",
           title: 'I have successfully defended my Ph.D. dissertation. :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "news-i-will-be-presenting-at-the-siggraph-thesis-fast-forward-and-the-rising-stars-workshop-during-siggraph-2025",
+          section: "News",},{id: "news-i-will-be-presenting-at-the-siggraph-thesis-fast-forward-and-the-rising-stars-workshop-during-siggraph-2025-in-vancouver-canada",
           title: 'I will be presenting at the SIGGRAPH Thesis Fast Forward and the Rising...',
           description: "",
           section: "News",},{id: "projects-project-2",
