@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/#service";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/assets/pdf/cv/CV_NingnaWang.pdf";
-          },
         },{id: "post-a-post-with-image-galleries",
         
           title: "a post with image galleries",
@@ -342,6 +335,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-i-will-be-presenting-at-the-siggraph-thesis-fast-forward-and-the-rising-stars-workshop-during-siggraph-2025-in-vancouver-canada",
           title: 'I will be presenting at the SIGGRAPH Thesis Fast Forward and the Rising...',
+          description: "",
+          section: "News",},{id: "news-one-paper-conditionally-accepted-to-siggraph-2025-asia-sparkles-smile",
+          title: 'One paper conditionally accepted to SIGGRAPH 2025 Asia :sparkles: :smile:',
           description: "",
           section: "News",},{id: "projects-project-2",
           title: 'project 2',
