@@ -29,4 +29,4 @@ I received my [Ph.D. in Computer Science](https://cs.utdallas.edu/) from [The Un
 I hold an [M.S. in Computer Science](https://www.lti.cs.cmu.edu/) from [Carnegie Mellon University](https://www.cmu.edu/) (CMU) and the [B.S. in Mathematics](https://math.jlu.edu.cn/English/About_Us/Introduction.htm) from [Jilin University](https://math.jlu.edu.cn/English/Home.htm) (JLU).
 
 
-
+<small><strong>Review Request:</strong> If you’re looking to invite me (or my collaborators) for a review, my co-authors are always kept up to date on my [Google Scholar page](https://scholar.google.com/citations?user=gyRrX3gAAAAJ), feel free to check there or contact me directly. </small>
