@@ -25,7 +25,6 @@ social: false  # includes social icons at the bottom of the page
 My name is Ningna Wang (/niŋ-na/ /wɔŋ/, 王宁娜 in Chinese). I am a Postdoctoral Research Scientist at [Columbia University](https://www.columbia.edu/), working with Prof. [Silvia Sellán](https://www.silviasellan.com/). My research focuses on geometric modeling, with an emphasis on developing new representations and algorithms that make geometric data processing more efficient and effective.
 
 I received my [Ph.D. in Computer Science](https://cs.utdallas.edu/) from [The University of Texas at Dallas](https://www.utdallas.edu/), advised by Prof. [Xiaohu Guo](https://personal.utdallas.edu/~xguo/). Before my Ph.D., I worked as a [Senior Software Developer](https://careers.booking.com/teams/engineering/) at [Booking.com](https://www.booking.com/) in Amsterdam, where I contributed to the development of a large-scale distributed search system for hotel availability, handling thousands of requests per second. 
-<!-- I hold an **M.S. in Computer Science** from [Carnegie Mellon University](https://www.cmu.edu/) and a **B.S. in Mathematics** from [Jilin University](https://math.jlu.edu.cn/English/Home.htm). -->
 I hold an [M.S. in Computer Science](https://www.lti.cs.cmu.edu/) from [Carnegie Mellon University](https://www.cmu.edu/) (CMU) and the [B.S. in Mathematics](https://math.jlu.edu.cn/English/About_Us/Introduction.htm) from [Jilin University](https://math.jlu.edu.cn/English/Home.htm) (JLU).
 
 

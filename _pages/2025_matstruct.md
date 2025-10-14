@@ -25,7 +25,7 @@ category: work
         </div>
     </div>
      <div class="col-sm-12">
-        <a href="#" class="btn btn-sm z-depth-0" role="button">ArXiv (coming soon) </a>
+        <a href="https://arxiv.org/pdf/2510.10751" class="btn btn-sm z-depth-0" role="button">ArXiv</a>
         <a href="#" class="btn btn-sm z-depth-0" role="button">Code (coming soon) </a>
         <a href="#" class="btn btn-sm z-depth-0" role="button">Video (coming soon) </a>
     </div>
