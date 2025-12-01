@@ -26,7 +26,7 @@ category: work
     </div>
      <div class="col-sm-12">
         <a href="https://arxiv.org/pdf/2510.10751" class="btn btn-sm z-depth-0" role="button">ArXiv</a>
-        <a href="#" class="btn btn-sm z-depth-0" role="button">Code (coming soon) </a>
+        <a href="https://github.com/ningnawang/MATStruct" class="btn btn-sm z-depth-0" role="button">Code</a>
         <a href="#" class="btn btn-sm z-depth-0" role="button">Video (coming soon) </a>
     </div>
     <div class="caption">
