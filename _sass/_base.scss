@@ -1233,6 +1233,15 @@ ninja-keys::part(ninja-input-wrapper) {
   transform: translateX(16px);
 }
 
+// navbar icon after name
+.navbar-name-icon {
+  height: 40px;
+  width: 40px;
+  margin-left: 1px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
 // about page news block
 .news-block {
   background: var(--global-news-bg-color);
