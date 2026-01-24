@@ -27,7 +27,7 @@ category: work
      <div class="col-sm-12">
         <a href="https://arxiv.org/pdf/2510.10751" class="btn btn-sm z-depth-0" role="button">ArXiv</a>
         <a href="https://github.com/ningnawang/MATStruct" class="btn btn-sm z-depth-0" role="button">Code</a>
-        <a href="#" class="btn btn-sm z-depth-0" role="button">Video (coming soon) </a>
+        <a href="https://youtu.be/Fr8hWByi-Fw?si=QqqXSKkqm5le9ZwT" class="btn btn-sm z-depth-0" role="button">Video </a>
     </div>
     <div class="caption">
         <p><img src="/assets/img/2025_matstruct/pipe2.png" width=800></p>
@@ -39,6 +39,24 @@ category: work
 <div class="research">
 <h2>Abstract</h2>
 We propose a novel optimization framework for computing the medial axis transform that simultaneously preserves the medial structure and ensures high medial mesh quality. The medial structure, consisting of interconnected sheets, seams, and junctions, provides a natural volumetric decomposition of a 3D shape. Our method introduces a structure-aware, particle-based optimization pipeline guided by the restricted power diagram (RPD), which partitions the input volume into convex cells whose dual encodes the connectivity of the medial mesh. Structure-awareness is enforced through a spherical quadratic error metric (SQEM) projection that constrains the movement of medial spheres, while a Gaussian kernel energy encourages an even spatial distribution. Compared to feature-preserving methods such as MATFP [Wang et al. 2022] and MATTopo [Wang et al. 2024], our approach produces cleaner medial structures with significantly improved mesh quality. In contrast to voxel-based, point-cloud-based, and variational methods, our framework is the first to integrate structural awareness into the optimization process, yielding medial meshes with explicit structural decomposition, topological correctness, and geometric fidelity.
+</div>
+
+
+
+<br>
+<iframe align="center" width="100%" height="600" src="https://youtu.be/Fr8hWByi-Fw?si=QqqXSKkqm5le9ZwT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<div class="research">
+<h2>Citation</h2>
+<pre class="project__bibtex">
+@inproceedings{wang2025matstruct,
+  title={MATStruct: High-quality Medial Mesh Computation via Structure-aware Variational Optimization},
+  author={Wang, Ningna and Xu, Rui and Yin, Yibo and Zhong, Zichun and Komura, Taku and Wang, Wenping and Guo, Xiaohu},
+  booktitle={Proceedings of the SIGGRAPH Asia 2025 Conference Papers},
+  pages={1--12},
+  year={2025}
+}
+</pre>
 </div>
 
 
