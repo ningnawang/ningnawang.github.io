@@ -44,7 +44,7 @@ We propose a novel optimization framework for computing the medial axis transfor
 
 
 <br>
-<iframe align="center" width="100%" height="600" src="https://youtu.be/Fr8hWByi-Fw?si=QqqXSKkqm5le9ZwT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe align="center" width="100%" height="600" src="https://www.youtube.com/embed/Fr8hWByi-Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <div class="research">
 <h2>Citation</h2>
@@ -58,7 +58,6 @@ We propose a novel optimization framework for computing the medial axis transfor
 }
 </pre>
 </div>
-
 
 
 
