@@ -17,6 +17,11 @@
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    {% if page.voronoi_background %}
+      <!-- Animated Voronoi background, drawn by assets/js/voronoi-bg.js -->
+      <canvas id="voronoi-bg" aria-hidden="true"></canvas>
+    {% endif %}
+
     <!-- Header -->
     {% include header.liquid %}
 

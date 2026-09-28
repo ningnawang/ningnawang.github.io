@@ -131,6 +131,17 @@
   ></script>
 {% endif %}
 
+{% if page.voronoi_background %}
+  <!-- Animated Voronoi background -->
+  <script
+    defer
+    src="{{ site.third_party_libraries.d3-delaunay.url.js }}"
+    integrity="{{ site.third_party_libraries.d3-delaunay.integrity.js }}"
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="{{ '/assets/js/voronoi-bg.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}
+
 {% if page.typograms %}
   <!-- Typograms -->
   <script src="{{ '/assets/js/typograms.js' | relative_url | bust_file_cache }}"></script>

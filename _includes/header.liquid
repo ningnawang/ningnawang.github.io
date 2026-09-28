@@ -135,6 +135,16 @@
               </button>
             </li>
           {% endif %}
+          {% if page.voronoi_background %}
+            <!-- Move / pause / clear the Voronoi background -->
+            <li class="toggle-container voronoi-toggle-container">
+              <button id="voronoi-toggle" title="Move / pause / clear the Voronoi background" data-state="move">
+                <i class="ti ti-hexagons" id="voronoi-toggle-move"></i>
+                <i class="ti ti-hexagons-off" id="voronoi-toggle-pause"></i>
+                <i class="ti ti-hexagon-letter-x" id="voronoi-toggle-clear"></i>
+              </button>
+            </li>
+          {% endif %}
         </ul>
       </div>
     </div>

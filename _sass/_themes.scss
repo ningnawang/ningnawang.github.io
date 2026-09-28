@@ -30,6 +30,8 @@
   --global-newsletter-bg-color: #{$white-color};
   --global-newsletter-text-color: #{$black-color};
   --global-news-bg-color: #{$grey-color-light};
+  --global-voronoi-site-color: rgba(0, 0, 0, 0.2);
+  --global-voronoi-edge-color: rgba(0, 0, 0, 0.1);
  
    --global-tip-block: #42b983;
    --global-tip-block-bg: #e2f5ec;
@@ -102,6 +104,8 @@
   --global-newsletter-bg-color: #{$grey-color-light};
   --global-newsletter-text-color: #{$grey-color-dark};
   --global-news-bg-color: #{$grey-900};
+  --global-voronoi-site-color: rgba(255, 255, 255, 0.25);
+  --global-voronoi-edge-color: rgba(255, 255, 255, 0.1);
  
    --global-tip-block: #42b983;
    --global-tip-block-bg: #e2f5ec;

@@ -18,6 +18,7 @@ announcements:
 selected_papers: true # includes a list of papers marked as "selected={true}"
 service: true
 social: false  # includes social icons at the bottom of the page
+voronoi_background: true # animated Voronoi cells in the side margins, with a pause switch in the navbar
 
 ---
 <a href='#'>Hello, 你好, Hola, Bonjour, こんにちは, 안녕하세요!</a>

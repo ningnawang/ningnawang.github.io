@@ -419,6 +419,12 @@ third_party_libraries:
     url:
       js: "https://cdn.jsdelivr.net/npm/d3@{{version}}/dist/d3.min.js"
     version: "7.8.5"
+  d3-delaunay:
+    integrity:
+      js: "sha256-78cmqorqCJf23aGYdHCdCf15F4EgjtWEfvH9NvmIaxg="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/d3-delaunay@{{version}}/dist/d3-delaunay.min.js"
+    version: "6.0.4"
   diff2html:
     integrity:
       css: "sha256-IMBK4VNZp0ivwefSn51bswdsrhk0HoMTLc2GqFHFBXg="

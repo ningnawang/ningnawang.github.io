@@ -384,7 +384,8 @@ ul.task-list input[type="checkbox"] {
 }
 
 #light-toggle,
-#search-toggle {
+#search-toggle,
+#voronoi-toggle {
   padding: 0;
   border: 0;
   background-color: inherit;
@@ -1231,6 +1232,53 @@ ninja-keys::part(ninja-input-wrapper) {
 
 .name-audio-toggle input:checked + .slider::after {
   transform: translateX(16px);
+}
+
+// animated Voronoi background (about page), drawn by assets/js/voronoi-bg.js
+$voronoi-min-width: 1100px; // below this the side margins are too narrow for it
+
+#voronoi-bg {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+}
+
+// the "clear" state
+#voronoi-bg[hidden] {
+  display: none;
+}
+
+.voronoi-toggle-container {
+  display: none;
+}
+
+// one icon per state (move / pause / clear), placed like the theme toggle's
+// icons (see _themes.scss)
+#voronoi-toggle i {
+  display: none;
+  padding-left: 10px;
+  padding-top: 12px;
+}
+
+#voronoi-toggle[data-state="move"] #voronoi-toggle-move,
+#voronoi-toggle[data-state="pause"] #voronoi-toggle-pause,
+#voronoi-toggle[data-state="clear"] #voronoi-toggle-clear {
+  display: block;
+}
+
+@media (min-width: $voronoi-min-width) {
+  #voronoi-bg {
+    display: block;
+  }
+
+  .voronoi-toggle-container {
+    display: block;
+  }
 }
 
 // navbar icon after name
