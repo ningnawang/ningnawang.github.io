@@ -9,6 +9,7 @@
 
   const ctx = canvas.getContext("2d");
   const toggle = document.getElementById("voronoi-toggle");
+  const hint = document.getElementById("voronoi-hint");
 
   const SPACING = 170; // average distance between neighboring sites, px
   const MARGIN = 80; // sites may drift this far outside the viewport, px
@@ -177,6 +178,7 @@
     if (!active) {
       cancelAnimationFrame(frameId);
       frameId = 0;
+      if (hint) hint.style.opacity = "0";
       return;
     }
     const w = canvas.clientWidth;
@@ -212,12 +214,30 @@
 
   // Only clicks on the bare page background count, so links, buttons, text,
   // the navbar and overlays keep working as usual.
+  function clickable(e) {
+    return active && (e.target === document.body || e.target === document.documentElement) && visibility(e.clientX) >= 0.25;
+  }
+
   document.addEventListener("click", function (e) {
-    if (!active || e.button !== 0) return;
-    if (e.target !== document.body && e.target !== document.documentElement) return;
-    if (visibility(e.clientX) < 0.25) return;
-    addSite(e.clientX, e.clientY);
+    if (e.button === 0 && clickable(e)) addSite(e.clientX, e.clientY);
   });
+
+  // The "click" label follows the mouse wherever a click would add a site
+  // (only on devices with a mouse).
+  if (hint && window.matchMedia("(hover: hover)").matches) {
+    document.addEventListener("mousemove", function (e) {
+      const on = clickable(e);
+      hint.style.opacity = on ? "1" : "0";
+      if (!on) return;
+      // below-right of the pointer, or below-left near the right edge
+      const w = hint.offsetWidth;
+      const x = e.clientX + 14 + w < width ? e.clientX + 14 : e.clientX - 10 - w;
+      hint.style.transform = `translate(${x}px, ${e.clientY + 18}px)`;
+    });
+    document.documentElement.addEventListener("mouseleave", function () {
+      hint.style.opacity = "0";
+    });
+  }
 
   // The navbar button shows one icon per state (styled off data-state), and
   // "clear" hides the canvas altogether.

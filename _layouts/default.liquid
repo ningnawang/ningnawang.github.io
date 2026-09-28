@@ -20,6 +20,8 @@
     {% if page.voronoi_background %}
       <!-- Animated Voronoi background, drawn by assets/js/voronoi-bg.js -->
       <canvas id="voronoi-bg" aria-hidden="true"></canvas>
+      <!-- Follows the mouse over the side margins, where a click adds a site -->
+      <div id="voronoi-hint" aria-hidden="true">click</div>
     {% endif %}
 
     <!-- Header -->
