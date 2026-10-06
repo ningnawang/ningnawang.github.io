@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <head>
+    {% if page.redirect contains '://' %}
+      {% assign redirect = page.redirect %}
+    {% else %}
+      {% assign redirect = page.redirect | relative_url %}
+    {% endif %}
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta http-equiv="refresh" content="0; url={{ redirect }}">
+    <link rel="canonical" href="{{ redirect }}">
+    <script>
+      window.location.replace('{{ redirect }}');
+    </script>
+  </head>
+  <body>
+    <p>{{ page.title }} is redirecting … If nothing happens, <a href="{{ redirect }}">click here</a>.</p>
+  </body>
+</html>

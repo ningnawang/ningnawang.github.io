@@ -1,12 +1,8 @@
 ---
-# layout: page
-permalink: assets/pdf/cv/CV_NingnaWang.pdf
-# permalink: /cv/
+layout: redirect
+permalink: /cv/
+redirect: /assets/pdf/cv/cv_ningnawang.pdf
 title: CV
 description:
 nav: false
-nav_order: 7
-# cv_pdf: cv_ningnawang_v2.pdf
 ---
-
-
