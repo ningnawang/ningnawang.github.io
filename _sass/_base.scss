@@ -1641,3 +1641,17 @@ figure.cover {
   border-right-style: dotted;
   border-left-style: dotted;
 }
+
+// Section headings on the homepage: title followed by a thin horizontal rule
+h2.section-rule {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  &::after {
+    content: "";
+    flex: 1;
+    border-top: 1px solid currentColor;
+    opacity: 0.3;
+  }
+}
