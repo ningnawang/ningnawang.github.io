@@ -17,6 +17,7 @@ announcements:
   limit: 30 # leave blank to include all the news in the `_news` folder
 selected_papers: true # includes a list of papers marked as "selected={true}"
 service: true
+misc: true # small tools, shown below a horizontal rule
 social: false  # includes social icons at the bottom of the page
 voronoi_background: true # animated Voronoi cells in the side margins, with a pause switch in the navbar
 

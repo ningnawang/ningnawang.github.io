@@ -77,6 +77,11 @@ layout: default
       {%- include service.liquid %}
     {%- endif %}
 
+    <!-- Misc -->
+    {% if page.misc -%}
+      {%- include misc.liquid %}
+    {%- endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
