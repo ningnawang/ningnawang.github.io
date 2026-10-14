@@ -1,0 +1,22 @@
+# Local additions to docker-compose.yml (`docker compose up` merges this file automatically).
+# On every start, copy the website CV built in the Overleaf clone next to this repo
+# (../overleaf/CV_NingnaWang/CV_NingnaWang_website.pdf) over assets/pdf/cv/CV_NingnaWang.pdf,
+# which the /cv page links to, then start Jekyll as usual.
+services:
+  jekyll:
+    volumes:
+      - ../overleaf/CV_NingnaWang:/cv-src:ro
+    command:
+      - /bin/bash
+      - -c
+      - |
+        src=/cv-src/CV_NingnaWang_website.pdf
+        dst=assets/pdf/cv/CV_NingnaWang.pdf
+        if [ ! -f "$$src" ]; then
+          echo "CV sync: $$src not found, keeping $$dst"
+        elif cmp -s "$$src" "$$dst"; then
+          echo "CV sync: $$dst is already up to date"
+        else
+          cp "$$src" "$$dst" && echo "CV sync: copied CV_NingnaWang_website.pdf -> $$dst"
+        fi
+        exec /tmp/entry_point.sh
