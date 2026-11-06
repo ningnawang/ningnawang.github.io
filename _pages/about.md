@@ -34,4 +34,4 @@ I hold an [M.S. in Computer Science](https://www.lti.cs.cmu.edu/) from [Carnegie
 
 <strong>📢 I am on the academic job market for the 2026–2027 cycle. Please feel free to <a href="mailto:ningnalala@gmail.com">contact me</a> if you have any relevant opportunities!</strong>
 
-📢 <small> <strong>Review Request:</strong> If you’re looking to invite me (or my collaborators) for a review, my co-authors are always kept up to date on my [Google Scholar page](https://scholar.google.com/citations?user=gyRrX3gAAAAJ), feel free to check there or contact me directly. </small>
+<!-- 📢 <small> <strong>Review Request:</strong> If you’re looking to invite me (or my collaborators) for a review, my co-authors are always kept up to date on my [Google Scholar page](https://scholar.google.com/citations?user=gyRrX3gAAAAJ), feel free to check there or contact me directly. </small> -->
